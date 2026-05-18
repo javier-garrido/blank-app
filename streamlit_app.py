@@ -1,6 +1,7 @@
 import streamlit as st
+import joblib
+import plotly.express as px
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+# 1. Configuración de la web
+st.set_page_config(page_title="Tomato Digital Twin", layout="wide")
+st.title("🍅 Simulador de Vida Útil Postcosecha (Digital Twin)")
